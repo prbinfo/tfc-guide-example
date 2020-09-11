@@ -30,5 +30,6 @@ resource "aws_dynamodb_table" "tfc_example_table" {
   
   output "Welcome" {  
   value = "${var.welcome}"
+    
 }
 }
