@@ -29,6 +29,6 @@ resource "aws_dynamodb_table" "tfc_example_table" {
   }
   
   output "Welcome" {  
-  value = "Welcome to Terraform Cloud"
+  value = echo "Welcome to Terraform Cloud"
 }
 }
